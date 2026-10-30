@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+
+
+.navbar {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 25px;
+}
+
+.logo {
+    width: 145px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #f8cb46;
+    border-right: 1px solid #eeeeee;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.delivery {
+    width: 265px;
+    padding-left: 35px;
+}
+
+.delivery h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.delivery p {
+    font-size: 12px;
+    color: #555555;
+}
+
+.search {
+    width: 530px;
+    height: 42px;
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search span {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 65px;
+    font-size: 15px;
+}
+
+.cart {
+    background-color: #e5e5e5;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+
+.container {
+    width: 1020px;
+    margin: 12px auto;
+}
+
+
+
+.main-banner {
+    width: 100%;
+    height: 198px;
+    background-color: #28843e;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-content {
+    padding-left: 30px;
+    color: white;
+    width: 58%;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.banner-content p {
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.banner-content button {
+    background-color: white;
+    color: #333333;
+    border: none;
+    padding: 8px 13px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.banner-placeholder {
+    width: 42%;
+    height: 100%;
+    background-color: #438d50;
+}
+
+
+
+.promotions {
+    display: flex;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.promo-card {
+    width: 33.33%;
+    height: 160px;
+    padding: 18px 13px;
+    border-radius: 13px;
+}
+
+.promo-card h2 {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.promo-card p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+.promo-card button {
+    padding: 7px 13px;
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    background-color: white;
+    color: #333333;
+}
+
+/* Individual promotional colors */
+
+.pharmacy {
+    background-color: #08b9b0;
+    color: white;
+}
+
+.pets {
+    background-color: #ffd12f;
+    color: #333333;
+}
+
+.pets button {
+    background-color: #333333;
+    color: white;
+}
+
+.baby {
+    background-color: #e5edf6;
+    color: #333333;
+}
+
+.baby button {
+    background-color: #333333;
+    color: white;
+}
+
+
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+    margin-top: 26px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category-image {
+    width: 84px;
+    height: 84px;
+    background-color: #edf4ff;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333333;
+}
